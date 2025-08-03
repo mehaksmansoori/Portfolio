@@ -4,7 +4,6 @@
 Welcome to my personal portfolio website!  
 This project showcases who I am, my skills, experiences, and the projects I’ve worked on as an Electronics and Communication Engineering student specializing in Artificial Intelligence.
 
-🚀 **Live Demo:** [Click here to visit the website]([https://mehaksmansoori.github.io/My_Portfolio](https://mehaksmansoori.github.io/Portfolio/))
 
 
 ## 📌 About Me
@@ -57,7 +56,7 @@ No additional setup required — it's a static website!
 🌐 Hosting
 This website is hosted using GitHub Pages.
 You can access it at:
-🔗 https://mehaksmansoori.github.io/My_Portfolio
+🔗 https://mehaksmansoori.github.io/Portfolio/
 
 📬 Contact
 📧 Email: mehak076bteceai23@igdtuw.ac.in
