@@ -43,8 +43,8 @@ My_Portfolio/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/mehaksmansoori/My_Portfolio.git
-   cd My_Portfolio
+   git clone https://github.com/mehaksmansoori/Portfolio.git
+   cd Portfolio
 Open index.html in your browser:
 
 Right-click on the file
