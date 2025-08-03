@@ -61,10 +61,6 @@ You can access it at:
 📬 Contact
 📧 Email: mehak076bteceai23@igdtuw.ac.in
 
-🔗 LinkedIn
-
-💻 GitHub
-
 ⭐️ Show Your Support
 If you like this project, feel free to ⭐️ the repo or reach out! Feedback and suggestions are always welcome.
 
