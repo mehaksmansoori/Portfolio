@@ -4,7 +4,7 @@
 Welcome to my personal portfolio website!  
 This project showcases who I am, my skills, experiences, and the projects I’ve worked on as an Electronics and Communication Engineering student specializing in Artificial Intelligence.
 
-🚀 **Live Demo:** [Click here to visit the website](https://mehaksmansoori.github.io/My_Portfolio)
+🚀 **Live Demo:** [Click here to visit the website]([https://mehaksmansoori.github.io/My_Portfolio](https://mehaksmansoori.github.io/Portfolio/))
 
 
 ## 📌 About Me
