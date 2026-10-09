@@ -871,3 +871,39 @@ footer {
     50% { transform: translate(-50%, -50%) scale(1.5) rotate(180deg); opacity: 1; }
     100% { transform: translate(-50%, -50%) scale(0) rotate(360deg); opacity: 0; }
 }
+
+/* Responsive refinements for the updated resume content. */
+html { scroll-behavior: smooth; scroll-padding-top: 100px; }
+.hero { height: auto; min-height: 100vh; padding-top: 9rem; }
+.hero-text h1 { font-size: clamp(2rem, 4.5vw, 3.5rem); }
+.hero-text p { max-width: 580px; }
+.mobile-menu { background: transparent; border: 0; padding: 8px; }
+.experience-duration, .education-year { flex-shrink: 0; }
+.experience-header, .education-header { gap: 1rem; }
+.experience-description li { margin: 0.6rem 0 0.6rem 1.2rem; }
+.additional-heading { margin: 2rem 0; color: var(--accent); }
+.coding-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem; margin-top: 2rem; }
+.contact-item { min-width: 0; }
+.contact-item p { overflow-wrap: anywhere; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 5px; }
+@media (max-width: 1050px) {
+  .nav-menu { display: none; }
+  .mobile-menu { display: flex; }
+  .nav-menu.is-open { display: flex; flex-direction: column; position: absolute; top: 100%; left: 0; right: 0; background: var(--bg-primary); padding: 1.5rem; gap: 1rem; border-top: 1px solid var(--border); }
+}
+@media (max-width: 768px) {
+  .hero { padding-top: 8rem; }
+  .hero-text p { margin-left: auto; margin-right: auto; }
+  .education-header, .experience-header { flex-direction: column; }
+  .about-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+  .stat-card { padding: 1.25rem 0.5rem; }
+  .stat-number { font-size: 2rem; }
+  .projects-grid, .skills-grid, .awards-grid { grid-template-columns: minmax(0, 1fr); }
+  .logo { font-size: 1.1rem; }
+  .profile-card { max-width: 100%; transform: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+  .reveal { opacity: 1; transform: none; }
+}

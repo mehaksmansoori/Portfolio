@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mehak Shaikh Mansoori - ECE AI Portfolio</title>
+    <title>Mehak Shaikh Mansoori | AI Research & Software Portfolio</title>
+    <meta name="description" content="Mehak Shaikh Mansoori — ECE and AI student at IGDTUW, with research experience at IIT Kharagpur and DRDO. Explore AI projects, skills, and achievements.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -12,7 +13,7 @@
     <nav>
         <div class="nav-container">
             <div class="logo">Mehak Shaikh Mansoori</div>
-            <ul class="nav-menu">
+            <ul class="nav-menu" id="navigation">
                 <li><a href="#home" class="nav-link active">Home</a></li>
                 <li><a href="#about" class="nav-link">About</a></li>
                 <li><a href="#education" class="nav-link">Education</a></li>
@@ -22,11 +23,11 @@
                 <li><a href="#awards" class="nav-link">Awards</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
-            <div class="mobile-menu">
+            <button class="mobile-menu" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navigation">
                 <span></span>
                 <span></span>
                 <span></span>
-            </div>
+            </button>
         </div>
     </nav>
 
@@ -36,8 +37,8 @@
             <div class="hero-content">
                 <div class="hero-text">
                     <h1 class="fade-in-up">Mehak Shaikh Mansoori</h1>
-                    <h2 class="fade-in-up">ECE AI Student</h2>
-                    <p class="fade-in-up">Electronics and Communication Engineering student at IGDTUW specializing in Artificial Intelligence. Passionate about AI, robotics, machine learning, and innovative tech solutions with a CGPA of 9.07.</p>
+                    <h2 class="fade-in-up">ECE & AI Student | LLM Research & Software Development</h2>
+                    <p class="fade-in-up">Electronics and Communication Engineering student at IGDTUW specializing in Artificial Intelligence. Building AI applications and researching efficient LLM inference. Research experience at IIT Kharagpur and DRDO, with a CGPA of 9.23.</p>
                     <div class="hero-buttons fade-in-up">
                         <a href="#contact" class="btn btn-primary">
                             <i class="fas fa-envelope"></i>
@@ -47,26 +48,27 @@
                             <i class="fas fa-code"></i>
                             View Projects
                         </a>
+                        <a href="Resume_MehakShaikh.pdf" class="btn btn-secondary" download>Download Resume</a>
                     </div>
                 </div>
                 <div class="hero-image">
                     <div class="profile-card">
                         <div class="profile-img">
-                            <img src="images/mehak.jpg" alt="Mehak Shaikh Mansoori" style="width: 100%; height: auto; border-radius: 50%;">
+                            <img src="images/mehak.jpg" alt="Mehak Shaikh Mansoori" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
                         </div>
                         <h3>Mehak Shaikh Mansoori</h3>
-                        <p>ECE AI, IGDTUW | CGPA: 9.07</p>
+                        <p>ECE AI, IGDTUW | CGPA: 9.23</p>
                         <div class="social-links">
-                            <a href="https://github.com/mehaksmansoori" class="social-link" target="_blank">
+                            <a href="https://github.com/mehaksmansoori" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                                 <i class="fab fa-github"></i>
                             </a>
-                            <a href="https://www.linkedin.com/in/mehak-shaikh-mansoori-b669b5287/" class="social-link" target="_blank">
+                            <a href="https://www.linkedin.com/in/mehak-shaikh-mansoori-b669b5287/" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                                 <i class="fab fa-linkedin"></i>
                             </a>
-                            <a href="mailto:mehak076bteceai23@igdtuw.ac.in" class="social-link">
+                            <a href="mailto:mehak076bteceai23@igdtuw.ac.in" class="social-link" aria-label="Email">
                                 <i class="fas fa-envelope"></i>
                             </a>
-                            <a href="tel:+919310968551" class="social-link">
+                            <a href="tel:+919310968551" class="social-link" aria-label="Phone">
                                 <i class="fas fa-phone"></i>
                             </a>
                         </div>
@@ -84,33 +86,11 @@
                 <p class="section-subtitle">Passionate about bridging electronics and artificial intelligence to create innovative solutions</p>
             </div>
             <div class="about-content">
-                <div class="about-stats reveal">
-                    <div class="stat-card">
-                        <span class="stat-number">9.07</span>
-                        <span class="stat-label">Current CGPA</span>
-                    </div>
-                    <div class="stat-card">
-                        <span class="stat-number">4</span>
-                        <span class="stat-label">Projects</span>
-                    </div>
-                    <div class="stat-card">
-                        <span class="stat-number">5</span>
-                        <span class="stat-label">Major Awards</span>
-                    </div>
-                    <div class="stat-card">
-                        <span class="stat-number">4</span>
-                        <span class="stat-label">Internships</span>
-                    </div>
-                </div>
-                <div class="about-text reveal">
-                    <p>Hello! I'm Mehak Shaikh Mansoori, a dedicated Electronics and Communication Engineering student with a specialization in Artificial Intelligence at Indira Gandhi Delhi Technical University for Women. With a strong academic record of 9.07 CGPA, I'm Passionate about AI and ML, and how they shape real-world solutions.</p>
-                    
-                    <p>My journey in technology has been marked by diverse experiences, from conducting research at DRDO on robotic path planning algorithms to developing AI-driven applications for real-world problems. I thrive in collaborative environments and have successfully worked on projects ranging from chatbot evaluation systems to resume analysis tools.</p>
-                    
-                    <p>What drives me is the potential of AI and machine learning to solve complex problems in electronics and communication.</p>
-                    
-                    <p>Currently, I'm seeking opportunities to apply my knowledge in innovative projects and contribute to cutting-edge research while continuing to grow as a tech professional.</p>
-                </div>
+<div class="about-stats reveal"><div class="stat-card"><span class="stat-number">9.23</span><span class="stat-label">Current CGPA</span></div><div class="stat-card"><span class="stat-number">750+</span><span class="stat-label">DSA Problems Solved</span></div><div class="stat-card"><span class="stat-number">1,000+</span><span class="stat-label">Prompts Benchmarked</span></div><div class="stat-card"><span class="stat-number">2</span><span class="stat-label">Research Internships</span></div></div><div class="about-text reveal">
+<p>I'm Mehak Shaikh Mansoori, pursuing a B.Tech in Electronics and Communication Engineering with Artificial Intelligence at IGDTUW (2023–2027). I enjoy turning research and algorithms into practical applications.</p>
+<p>At IIT Kharagpur, I researched resource-aware LLM benchmarking and inference performance. At DRDO's ISSA Lab, I optimized real-time path planning for dynamic navigation scenarios.</p>
+<p>My projects span AI-assisted web development, scalable robot navigation, and machine learning for chatbot preference prediction. I've also solved 750+ problems on LeetCode and GeeksforGeeks.</p>
+<p>I'm interested in opportunities in AI research and software development where I can build, learn, and contribute.</p></div>
             </div>
         </div>
     </section>
@@ -127,7 +107,7 @@
                     <div>
                         <h3 class="education-title">Indira Gandhi Delhi Technical University for Women</h3>
                         <div class="education-degree">Bachelor of Technology - Electronics and Communication Engineering with Artificial Intelligence</div>
-                        <div class="education-cgpa">CGPA: 9.07</div>
+                        <div class="education-cgpa">CGPA: 9.23</div>
                     </div>
                     <div class="education-year">2023-2027</div>
                 </div>
@@ -136,310 +116,16 @@
     </section>
 
     <!-- Skills Section -->
-    <section id="skills" class="skills">
-        <div class="container">
-            <div class="section-header reveal">
-                <h2 class="section-title">Technical Skills</h2>
-                <p class="section-subtitle">Comprehensive skill set spanning programming, AI/ML, and software development</p>
-            </div>
-            <div class="skills-grid">
-                <div class="skill-category reveal">
-                    <h3><i class="fas fa-code"></i> Programming Languages</h3>
-                    <div class="skill-item">
-                        <span class="skill-name">Java</span>
-                    </div>
-                    <div class="skill-item">
-                        <span class="skill-name">Python</span>
-                    </div>
-                    <div class="skill-item">
-                        <span class="skill-name">C</span>
-                    </div>
-                </div>
-
-                <div class="skill-category reveal">
-                    <h3><i class="fas fa-brain"></i> AI & Machine Learning</h3>
-                    <div class="skill-item">
-                        <span class="skill-name">Linear Regression</span>
-                    </div>
-                    <div class="skill-item">
-                        <span class="skill-name">Random Forest</span>
-                    </div>
-                    <div class="skill-item">
-                        <span class="skill-name">Support Vector Classifier</span>
-                    </div>
-                    <div class="skill-item">
-                        <span class="skill-name">Logistic Regression</span>
-                    </div>
-                </div>
-
-                <div class="skill-category reveal">
-                    <h3><i class="fas fa-tools"></i> Tools & Technologies</h3>
-                    <div class="skill-item">
-                        <span class="skill-name">Git & GitHub</span>
-                    </div>
-                    <div class="skill-item">
-                        <span class="skill-name">Streamlit</span>
-                    </div>
-                    <div class="skill-item">
-                        <span class="skill-name">MySQL</span>
-                    </div>
-                    <div class="skill-item">
-                        <span class="skill-name">VS Code & PyCharm</span>
-                    </div>
-                    <div class="skill-item">
-                        <span class="skill-name">Microsoft Excel</span>
-                    </div>
-                </div>
-                <div class="skill-category reveal">
-                    <h3><i class="fas fa-database"></i> CS Fundamentals</h3>
-                    <div class="skill-item">
-                        <span class="skill-name">Data Structures & Algorithms</span>
-                    </div>
-                    <div class="skill-item">
-                        <span class="skill-name">Object-Oriented Programming</span>
-                    </div>
-                    <div class="skill-item">
-                        <span class="skill-name">Database Management Systems</span>
-                    </div>
-                </div>
-
-                <div class="skill-category reveal">
-                    <h3><i class="fas fa-flask"></i> ML Libraries & Frameworks</h3>
-                    <div class="skill-item">
-                        <span class="skill-name">Pandas & NumPy</span>
-                    </div>
-                    <div class="skill-item">
-                        <span class="skill-name">Scikit-learn</span>
-                    </div>
-                    <div class="skill-item">
-                        <span class="skill-name">TensorFlow</span>
-                    </div>
-                    <div class="skill-item">
-                        <span class="skill-name">Jupyter & Google Colab</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <section id="skills" class="skills"><div class="container"><div class="section-header reveal"><h2 class="section-title">Technical Skills</h2><p class="section-subtitle">Programming, AI research, and the tools I use to build applications.</p></div><div class="skills-grid"><div class="skill-category reveal"><h3><i class="fas fa-code" aria-hidden="true"></i> Programming Languages</h3><div class="skill-item"><span class="skill-name">Java</span></div><div class="skill-item"><span class="skill-name">Python</span></div><div class="skill-item"><span class="skill-name">C</span></div><div class="skill-item"><span class="skill-name">HTML</span></div><div class="skill-item"><span class="skill-name">CSS</span></div></div><div class="skill-category reveal"><h3><i class="fas fa-brain" aria-hidden="true"></i> AI & Machine Learning</h3><div class="skill-item"><span class="skill-name">Supervised & Unsupervised Learning</span></div><div class="skill-item"><span class="skill-name">Prompt Engineering</span></div><div class="skill-item"><span class="skill-name">Generative AI</span></div><div class="skill-item"><span class="skill-name">Model Evaluation</span></div><div class="skill-item"><span class="skill-name">Random Forest</span></div></div><div class="skill-category reveal"><h3><i class="fas fa-tools" aria-hidden="true"></i> Tools & Technologies</h3><div class="skill-item"><span class="skill-name">Git & GitHub</span></div><div class="skill-item"><span class="skill-name">Hugging Face & Transformers</span></div><div class="skill-item"><span class="skill-name">Jupyter Notebook & Google Colab</span></div><div class="skill-item"><span class="skill-name">VS Code & PyCharm</span></div></div><div class="skill-category reveal"><h3><i class="fas fa-database" aria-hidden="true"></i> CS Fundamentals & Databases</h3><div class="skill-item"><span class="skill-name">Data Structures & Algorithms</span></div><div class="skill-item"><span class="skill-name">Object-Oriented Programming</span></div><div class="skill-item"><span class="skill-name">Database Management Systems</span></div><div class="skill-item"><span class="skill-name">Operating Systems</span></div><div class="skill-item"><span class="skill-name">MySQL</span></div></div><div class="skill-category reveal"><h3><i class="fas fa-flask" aria-hidden="true"></i> Project Libraries</h3><div class="skill-item"><span class="skill-name">Scikit-learn</span></div><div class="skill-item"><span class="skill-name">Pandas & NumPy</span></div><div class="skill-item"><span class="skill-name">Matplotlib</span></div><div class="skill-item"><span class="skill-name">Streamlit</span></div></div></div></div></section>
 
     <!-- Experience Section -->
-    <section id="experience" class="experience">
-        <div class="container">
-            <div class="section-header reveal">
-                <h2 class="section-title">Professional Experience</h2>
-                <p class="section-subtitle">Research and internship experiences in AI, robotics, finance, and software development</p>
-            </div>
-            <div class="experience-timeline">
-                <div class="experience-item reveal">
-                    <div class="experience-header">
-                        <div>
-                            <h3 class="experience-role">Finance Intern</h3>
-                            <div class="experience-company">Art for All at Slam Out Loud</div>
-                        </div>
-                        <div class="experience-duration">Dec 2024 - Present</div>
-                    </div>
-                    <p class="experience-description">
-                        Tracked and maintained financial records using Microsoft Excel, ensuring accurate invoice logging, reconciliation, and compliance through consistent manual monitoring of invoice workflows on the company portal. Developed efficient systems for financial data management and reporting.
-                    </p>
-                </div>
-
-                <div class="experience-item reveal">
-                    <div class="experience-header">
-                        <div>
-                            <h3 class="experience-role">Research Intern</h3>
-                            <div class="experience-company">Defence Research and Development Organisation (DRDO) - ISSA LAB</div>
-                        </div>
-                        <div class="experience-duration">Jun 2025 - Jul 2025</div>
-                    </div>
-                    <p class="experience-description">
-                        Exploring robotic path planning using the D* Lite (Dynamic A*) algorithm in Java for autonomous navigation in dynamic environments, focusing on real-time path re-planning and obstacle avoidance. Working on cutting-edge defense applications of autonomous robotics.
-                    </p>
-                </div>
-
-                <div class="experience-item reveal">
-                    <div class="experience-header">
-                        <div>
-                            <h3 class="experience-role">Summer Intern – Generative AI & Prompt Engineering</h3>
-                            <div class="experience-company">Department of IT, IGDTUW</div>
-                        </div>
-                        <div class="experience-duration">Jun 2025 - Jul 2025</div>
-                    </div>
-                    <p class="experience-description">
-                        Participated in a comprehensive 6-week internship program covering the fundamentals and emerging applications of Generative AI and Prompt Engineering. Gained hands-on experience with latest AI technologies and their practical implementations.
-                    </p>
-                </div>
-
-                <div class="experience-item reveal">
-                    <div class="experience-header">
-                        <div>
-                            <h3 class="experience-role">Python & Machine Learning Intern</h3>
-                            <div class="experience-company">Centre of Excellence - AI</div>
-                        </div>
-                        <div class="experience-duration">Jun 2024 - Jul 2024</div>
-                    </div>
-                    <p class="experience-description">
-                        Collaborated in an Agile team of 3 to design, develop, and deploy a chatbot evaluation platform using Python and a Random Forest pairwise ranking model to predict user-preferred chatbot responses. Applied machine learning techniques to solve real-world AI evaluation challenges.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
+    <section id="experience" class="experience"><div class="container"><div class="section-header reveal"><h2 class="section-title">Experience</h2><p class="section-subtitle">Research in efficient AI inference and dynamic navigation, alongside mentoring and community work.</p></div><div class="experience-timeline"><div class="experience-item reveal"><div class="experience-header"><div><h3 class="experience-role">Summer Intern</h3><div class="experience-company">Indian Institute of Technology, Kharagpur (IIT KGP)</div></div><div class="experience-duration">May 2026 – July 2026</div></div><ul class="experience-description"><li>Researched large language models, focusing on resource-aware benchmarking, prompt engineering, and inference performance analysis.</li><li>Built a benchmark dataset of 1,000+ real-world prompts spanning diverse domains, reasoning strategies, and complexity levels.</li><li>Profiled Mistral-7B and Qwen using latency, memory usage, throughput, and token-level metrics to analyze resource utilization.</li></ul></div><div class="experience-item reveal"><div class="experience-header"><div><h3 class="experience-role">Research Intern</h3><div class="experience-company">Defence Research and Development Organisation (DRDO) – ISSA Lab</div></div><div class="experience-duration">June 2025 – July 2025</div></div><ul class="experience-description"><li>Optimized real-time path planning for dynamic navigation scenarios, improving system efficiency by 10% and enabling fast, data-driven decision-making.</li></ul></div></div><h3 class="additional-heading">Mentoring & Community Experience</h3><div class="experience-item reveal"><h3 class="experience-role">Student Mentor · Desh ke Mentor</h3><p class="experience-description">Mentored two high school students, providing academic and career guidance.</p></div><div class="experience-item reveal"><h3 class="experience-role">Finance Intern · Slam Out Loud</h3><p class="experience-description">Managed expense bills, ensuring timely ERP uploads and accurate record maintenance.</p></div></div></section>
 
     <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <div class="section-header reveal">
-                <h2 class="section-title">Featured Projects</h2>
-                <p class="section-subtitle">AI-driven solutions and innovative applications showcasing technical expertise</p>
-            </div>
-            <div class="projects-grid">
-                <div class="project-card reveal">
-                    <div class="project-image">
-                        <i class="fas fa-robot"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">PrefiSence</h3>
-                        <p class="project-description">Engineered an AI-driven chatbot evaluation system with a Random Forest ranking model, achieving 81.94% accuracy and deploying the interface via Streamlit Cloud for real-time chatbot performance assessment.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">Python</span>
-                            <span class="tech-tag">NumPy</span>
-                            <span class="tech-tag">Pandas</span>
-                            <span class="tech-tag">TensorFlow</span>
-                            <span class="tech-tag">Matplotlib</span>
-                            <span class="tech-tag">Seaborn</span>
-                            <span class="tech-tag">Streamlit</span>
-                            <span class="tech-tag">Random Forest</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/mehaksmansoori/PrefiSence--ChatBot_Preference_Model" class="project-link" target="_blank">
-                                <i class="fab fa-github"></i>
-                                GitHub
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card reveal">
-                    <div class="project-image">
-                        <i class="fas fa-file-alt"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">GemHire</h3>
-                        <p class="project-description">Developed an end-to-end AI-driven resume evaluation tool that mimics ATS behavior to assess resume-job description compatibility using Google Gemini Pro (LLM), helping job seekers optimize their applications.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">Streamlit</span>
-                            <span class="tech-tag">Google Gemini Pro</span>
-                            <span class="tech-tag">Python</span>
-                            <span class="tech-tag">PyPDF2</span>
-                            <span class="tech-tag">LLM</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/mehaksmansoori/GemHire" class="project-link" target="_blank">
-                                <i class="fab fa-github"></i>
-                                GitHub
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card reveal">
-                    <div class="project-image">
-                        <i class="fas fa-qrcode"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">QuickQR</h3>
-                        <p class="project-description">Built QuickQR, a lightweight QR Code Generator with a clean interface for fast and hassle-free QR code creation. Features customizable designs and instant generation capabilities.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">Streamlit</span>
-                            <span class="tech-tag">Python</span>
-                            <span class="tech-tag">QRCode</span>
-                            <span class="tech-tag">Pillow</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/mehaksmansoori/QR-Code-Generator" class="project-link" target="_blank">
-                                <i class="fab fa-github"></i>
-                                GitHub
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card reveal">
-                    <div class="project-image">
-                        <i class="fas fa-route"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">D* Lite Path Planning</h3>
-                        <p class="project-description">Research project at DRDO focusing on robotic path planning using D* Lite algorithm for autonomous navigation in dynamic environments with real-time obstacle avoidance capabilities.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">Java</span>
-                            <span class="tech-tag">D* Lite Algorithm</span>
-                            <span class="tech-tag">Robotics</span>
-                            <span class="tech-tag">Path Planning</span>
-                            <span class="tech-tag">Autonomous Systems</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/mehaksmansoori/Robot-Path-Planning" class="project-link" target="_blank">
-                                <i class="fab fa-github"></i>
-                                Code
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <section id="projects" class="projects"><div class="container"><div class="section-header reveal"><h2 class="section-title">Featured Projects</h2><p class="section-subtitle">From AI-assisted development to algorithms and machine learning.</p></div><div class="projects-grid"><article class="project-card reveal"><div class="project-image"><i class="fas fa-code" aria-hidden="true"></i></div><div class="project-content"><h3 class="project-title">LeetTrackAI</h3><p class="project-description">Built and deployed a full-stack web application entirely through prompt engineering using OpenAI Codex, with no manual coding. Tested the application for reliability and performance.</p><div class="project-tech"><span class="tech-tag">Prompt Engineering</span><span class="tech-tag">OpenAI Codex</span><span class="tech-tag">AI-Assisted Development</span></div><div class="project-links"><a href="https://github.com/mehaksmansoori/LeetTrack-AI" class="project-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> View LeetTrackAI on GitHub</a></div></div></article><article class="project-card reveal"><div class="project-image"><i class="fas fa-route" aria-hidden="true"></i></div><div class="project-content"><h3 class="project-title">Robot Path Planning</h3><p class="project-description">Implemented a scalable replanning framework for grid-based navigation in environments up to 1000 × 1000, using core data structures and algorithmic optimizations for performance and reliability.</p><div class="project-tech"><span class="tech-tag">Java</span><span class="tech-tag">D* Lite</span><span class="tech-tag">Data Structures & Algorithms</span></div><div class="project-links"><a href="https://github.com/mehaksmansoori/Robot-Path-Planning" class="project-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> View Robot Path Planning on GitHub</a></div></div></article><article class="project-card reveal"><div class="project-image"><i class="fas fa-robot" aria-hidden="true"></i></div><div class="project-content"><h3 class="project-title">PrefiSence</h3><p class="project-description">Built a machine learning pipeline to predict human preferences between chatbot responses, achieving 81.94% accuracy with a Random Forest classifier. A Streamlit interface supports response comparisons and real-time predictions.</p><div class="project-tech"><span class="tech-tag">Python</span><span class="tech-tag">Scikit-learn</span><span class="tech-tag">Pandas</span><span class="tech-tag">NumPy</span><span class="tech-tag">Matplotlib</span><span class="tech-tag">Streamlit</span><span class="tech-tag">Random Forest</span></div><div class="project-links"><a href="https://github.com/mehaksmansoori/PrefiSence--ChatBot_Preference_Model" class="project-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> View PrefiSence on GitHub</a></div></div></article></div></div></section>
 
     <!-- Awards Section -->
-    <section id="awards" class="awards">
-        <div class="container">
-            <div class="section-header reveal">
-                <h2 class="section-title">Awards & Achievements</h2>
-                <p class="section-subtitle">Recognition for excellence in academics, research, and hackathon</p>
-            </div>
-            <div class="awards-grid">
-                <div class="award-card reveal">
-                    <div class="award-icon">
-                        <i class="fab fa-amazon"></i>
-                    </div>
-                    <h3 class="award-title">Amazon Future Engineer Bootcamp</h3>
-                    <p class="award-year">Phase 2 - 2025</p>
-                </div>
-
-                <div class="award-card reveal">
-                    <div class="award-icon">
-                        <i class="fas fa-handshake"></i>
-                    </div>
-                    <h3 class="award-title">Goldman Sachs Mentorship Program</h3>
-                    <p class="award-year">Selected - 2025</p>
-                </div>
-                
-                <div class="award-card reveal">
-                    <div class="award-icon">
-                        <i class="fas fa-scroll"></i>
-                    </div>
-                    <h3 class="award-title">Research Paper Publication</h3>
-                    <p class="award-year">ICICC 2025 - Co-authored "ChatBot Arena Human Preferences Prediction"</p>
-                </div>
-
-                <div class="award-card reveal">
-                    <div class="award-icon">
-                        <i class="fas fa-trophy"></i>
-                    </div>
-                    <h3 class="award-title">JPMC Generation Tech Hackathon</h3>
-                    <p class="award-year">Winner - 2024</p>
-                </div>
-
-                <div class="award-card reveal">
-                    <div class="award-icon">
-                        <i class="fas fa-graduation-cap"></i>
-                    </div>
-                    <h3 class="award-title">EY Foundation Bright Scholarship</h3>
-                    <p class="award-year">Recipient - 2020</p>
-                </div>
-            </div>
-        </div>
-    </section>
+    <section id="awards" class="awards"><div class="container"><div class="section-header reveal"><h2 class="section-title">Awards & Achievements</h2><p class="section-subtitle">Problem solving, research, and recognition.</p></div><div class="awards-grid"><div class="award-card reveal"><div class="award-icon"><i class="fas fa-trophy" aria-hidden="true"></i></div><h3 class="award-title">750+ DSA Problems</h3><p class="award-year">Solved on LeetCode and GeeksforGeeks, covering core and advanced algorithms.</p></div><div class="award-card reveal"><div class="award-icon"><i class="fas fa-trophy" aria-hidden="true"></i></div><h3 class="award-title">Google India · The Big Code Challenge</h3><p class="award-year">2026 · Advanced to Round 2, ranking among the top 1,500 participants.</p></div><div class="award-card reveal"><div class="award-icon"><i class="fas fa-trophy" aria-hidden="true"></i></div><h3 class="award-title">Research Paper · ICICC 2025</h3><p class="award-year">Co-authored and presented “ChatBot Arena Human Preferences Prediction”.</p></div><div class="award-card reveal"><div class="award-icon"><i class="fas fa-trophy" aria-hidden="true"></i></div><h3 class="award-title">Amazon Future Engineer Bootcamp</h3><p class="award-year">2025 · Selected for the AFE Bootcamp.</p></div><div class="award-card reveal"><div class="award-icon"><i class="fas fa-trophy" aria-hidden="true"></i></div><h3 class="award-title">EY Foundation Bright Scholarship</h3><p class="award-year">2025 · Recipient, awarded to the top 50 students in Delhi.</p></div><div class="award-card reveal"><div class="award-icon"><i class="fas fa-trophy" aria-hidden="true"></i></div><h3 class="award-title">JPMC Generation Tech Hackathon</h3><p class="award-year">2024 · Winner, chosen among 100 participants.</p></div></div><div class="coding-links"><a class="btn btn-secondary" href="https://leetcode.com/u/mehakmns/" target="_blank" rel="noopener noreferrer">LeetCode Profile</a><a class="btn btn-secondary" href="https://www.geeksforgeeks.org/profile/mehakmanazkw" target="_blank" rel="noopener noreferrer">GeeksforGeeks Profile</a></div></div></section>
 
     <!-- Contact Section -->
     <section id="contact" class="contact">
@@ -482,14 +168,14 @@
                             <i class="fab fa-linkedin"></i>
                         </div>
                         <div>
-                            <a href="https://www.linkedin.com/in/mehak-shaikh-mansoori-b669b5287/" target="_blank" style="text-decoration: none; color: inherit;">
+                            <a href="https://www.linkedin.com/in/mehak-shaikh-mansoori-b669b5287/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;">
                                 <h4>LinkedIn</h4>
                                 <p>Connect with me professionally</p>
                             </a>
                         </div>
                     </div>
                 </div>
-                <form class="contact-form reveal">
+                <form class="contact-form reveal"><p class="experience-description">This opens a draft in your email app so you can review and send your message.</p>
                     <div class="form-group">
                         <label for="name">Name</label>
                         <input type="text" id="name" name="name" required>
@@ -508,7 +194,7 @@
                     </div>
                     <button type="submit" class="btn btn-primary">
                         <i class="fas fa-paper-plane"></i>
-                        Send Message
+                        Open Email Draft
                     </button>
                 </form>
             </div>
@@ -518,7 +204,7 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2025 Mehak Shaikh Mansoori. All rights reserved. | ECE AI Student at IGDTUW | Passionate Student</p>
+            <p>&copy; 2026 Mehak Shaikh Mansoori. All rights reserved. | ECE AI Student at IGDTUW</p>
         </div>
     </footer>
 
