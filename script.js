@@ -42,6 +42,21 @@ window.addEventListener('scroll', () => {
 document.querySelector('.contact-form').addEventListener('submit', function(event) {
   event.preventDefault();
   const data = new FormData(this);
-  const body = `${data.get('message')}\n\nFrom: ${data.get('name')}\nEmail: ${data.get('email')}`;
-  window.location.href = `mailto:mehak076bteceai23@igdtuw.ac.in?subject=${encodeURIComponent(data.get('subject'))}&body=${encodeURIComponent(body)}`;
+  const recipient = 'mehak076bteceai23@igdtuw.ac.in';
+  const subject = String(data.get('subject')).trim();
+  const body = `${String(data.get('message')).trim()}\r\n\r\nFrom: ${String(data.get('name')).trim()}\r\nEmail: ${String(data.get('email')).trim()}`;
+  const status = document.querySelector('#draft-status');
+  if (data.get('draft-provider') === 'gmail') {
+    const params = new URLSearchParams({ view: 'cm', fs: '1', to: recipient, su: subject, body });
+    const draft = window.open(`https://mail.google.com/mail/?${params}`, '_blank');
+    if (draft) {
+      draft.opener = null;
+      status.textContent = 'Gmail opened in a new tab. Sign in if needed, then review and send your draft. Your message has not been sent yet.';
+    } else {
+      status.textContent = 'The browser blocked the new tab. Allow pop-ups for this site and try again, or choose your email app. Your entries are still here.';
+    }
+  } else {
+    window.location.href = `mailto:${recipient}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    status.textContent = 'An email-app draft was requested. If nothing opened, choose Gmail instead. Your message has not been sent yet.';
+  }
 });

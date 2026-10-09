@@ -907,3 +907,6 @@ html { scroll-behavior: smooth; scroll-padding-top: 100px; }
   *, *::before, *::after { animation: none !important; transition: none !important; }
   .reveal { opacity: 1; transform: none; }
 }
+.form-group select { padding: 1rem; background: var(--bg-card); border: 1px solid var(--border); border-radius: 8px; color: var(--text-primary); font: inherit; }
+.contact-form a { color: var(--accent); overflow-wrap: anywhere; }
+#draft-status:empty { display: none; }

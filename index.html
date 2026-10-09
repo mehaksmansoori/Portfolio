@@ -175,7 +175,7 @@
                         </div>
                     </div>
                 </div>
-                <form class="contact-form reveal"><p class="experience-description">This opens a draft in your email app so you can review and send your message.</p>
+                <form class="contact-form reveal"><p class="experience-description">Choose where to open your draft, then review and send it. Gmail opens in a new tab; your email app requires a configured mail handler.</p>
                     <div class="form-group">
                         <label for="name">Name</label>
                         <input type="text" id="name" name="name" required>
@@ -192,10 +192,19 @@
                         <label for="message">Message</label>
                         <textarea id="message" name="message" placeholder="Let's discuss AI, robotics, research opportunities, or potential collaborations..." required></textarea>
                     </div>
+                    <div class="form-group">
+                        <label for="draft-provider">Open draft in</label>
+                        <select id="draft-provider" name="draft-provider">
+                            <option value="gmail">Gmail (browser)</option>
+                            <option value="mailto">My email app</option>
+                        </select>
+                    </div>
                     <button type="submit" class="btn btn-primary">
                         <i class="fas fa-paper-plane"></i>
                         Open Email Draft
                     </button>
+                    <p id="draft-status" class="experience-description" role="status" aria-live="polite"></p>
+                    <p class="experience-description">You can also email <a href="mailto:mehak076bteceai23@igdtuw.ac.in">mehak076bteceai23@igdtuw.ac.in</a> directly.</p>
                 </form>
             </div>
         </div>
